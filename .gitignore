@@ -1,0 +1,64 @@
+# Ignore build outputs
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Ignore user-specific files
+.vscode/
+.idea/
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.log
+*.user
+*.userprefs
+*.ncb
+
+# Ignore config files generated at runtime
+*.local
+*.db
+*.db-journal
+
+# Ignore Mac specific files
+.DS_Store
+
+# Ignore Windows specific files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Ignore Linux specific files
+*.swp
+
+# Ignore Unreal crash reports and logs
+*.dmp
+*.dump
+*.log
+*.lck
+
+# Ignore Unreal autosaves and backups
+Autosaves/
+Backup/
+
+# Ignore UObject redirectors (optional but risky to auto-ignore)
+*.uasset.tmp
+
+# Ignore generated project files (optional if you use GenerateProjectFiles.bat manually)
+*.xcodeproj
+*.xcworkspace
+*.sln
+
+# Ignore compiled shaders (optional)
+DerivedDataCache/
+
+# Ignore cache and temp folders
+Saved/Config/WindowsEditor/GameUserSettings.ini
+Saved/Cooked/
+
+# Optional: If you use Rider
+.idea/
+*.iml
